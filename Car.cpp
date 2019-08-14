@@ -3,14 +3,10 @@
 using	namespace	std;
 
 Car::Car() :m_speed(0), m_direction(0) 
-{
-	
-}
+{ }
 
 Car::Car(int speed, int direction) : m_speed(speed), m_direction(direction)
-{
-
-}
+{ }
 
 Car::~Car() {}
 
